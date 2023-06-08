@@ -1,0 +1,10 @@
+resteasy:
+  jaxrs:
+    app:
+      classes: io.standard.JaxrsApplication
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: "env,beans"

@@ -1,0 +1,7 @@
+GET http://localhost:8080/people/{{$randomInt 1 50}}
+###
+GET http://localhost:8080/planets/{{$randomInt 1 50}}
+###
+GET http://localhost:8080/actuator/metrics/logback.events
+
+
